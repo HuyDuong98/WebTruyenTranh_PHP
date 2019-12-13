@@ -1,0 +1,40 @@
+h1{
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 230%;
+    font: normal normal normal 40px/1.4em 'playfair display',serif;
+    vertical-align: baseline;
+    letter-spacing: 0.2em;
+}
+.btn{
+    background: red;
+    color:#fff;
+}
+.container{
+    width: 100%;
+}
+.contentt{
+    width: 100%;
+    margin: auto;
+}
+.head{
+    width: 100%;
+    padding: 5px;
+    height: 70px;
+    background-image: url('../img/header.jpg');
+}
+.navbar a{
+    color: #fff;
+}
+.navbar-brand img{
+    height: 100%;
+}
+.navbar{
+    padding: 0;
+    padding-left: 50px;
+}
+.navbar-brand{
+    height:60px;
+}

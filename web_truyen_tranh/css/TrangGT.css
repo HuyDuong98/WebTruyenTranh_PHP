@@ -1,0 +1,569 @@
+body{
+	background: #F0F8FF;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	line-height: 1;
+}
+.Search{
+	width: 400px; 
+    float: right;
+    margin: 20px -35px 0 0;
+}
+.KSForm.search {
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+    height: 34px;
+}
+#Head{
+	width: 100%;
+	height: 68px;
+	background: #191970;
+    padding-left: 50px;
+    padding-right: 30px;
+    color:#fff;
+}
+#Head h1{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: "Times New Roman";
+	font-size: 30;
+}
+#Head ul{
+	margin: 0;	
+	padding: 0;
+	list-style: none;
+}
+#Head ul li a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding: 7px 17px;
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+.MenuTop{
+	width: 100%;
+	height: 20px;
+	background: #808080;
+	color: white;
+	float: left;
+	padding: 5px 15px;
+	padding-left: 85px;
+	padding-right: 30px;
+}
+.MenuTop a{
+	color: white;
+}
+.Chinh{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: 5.3%;
+	margin-left: 5.3%;
+	font-family: "Times New Roman";
+	width: 80%;
+}
+.Content{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.ThongTin{
+	margin-bottom: 5px;
+	width: 80%;
+	float: left;
+	position: relative;
+	height: 600px;
+}
+.truyen{
+	text-align: left;
+    height: 40px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #CCC;
+    position: relative;
+}
+.truyen h2{
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2.5%;
+    max-width: 100%;
+    line-height: 40px;
+    max-width: 28%;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+.book{
+	width: 25%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	float: left;
+}
+.hinh{
+	box-shadow: 5px 5px 5px;
+	margin-bottom: 3%;
+}
+.Info{
+	padding: 5px;
+    margin-right: 15px;
+    border-right: 1px solid #DDD;
+    font-family: "Roboto Condensed";
+}
+.Info div{
+	margin-top: 3%;
+	font-family: "Roboto Condensed";
+	text-align: left;
+	margin-right: 5px;
+	color: #4E4E4E;
+	font-size: 17px
+}
+.Info strong{
+	color: #000;
+	font-size: 18px
+}
+a, a:hover, a:focus{
+	color: #00008B;
+}
+a{
+	color: #4E4E4E;
+	text-decoration: none;
+}
+.GT{
+	padding: 0 15px;
+	text-align: center;
+	width: 70%;
+	float: left;
+}
+.GT h3.NameT{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	margin-left:130px; 
+	padding: 0 15px 7px;
+	border-bottom: 1px solid #b5b5b5;
+	text-transform: uppercase;
+	font-family: "Roboto Condensed",sans-serif;
+	width: 50%;
+
+}
+.DanhGia{
+	display: block;
+}
+.Sao{
+	display: inline-block;
+}
+img{
+	vertical-align: middle;
+	border: 0;
+	margin: 0;
+}
+.Loi-Dan{
+	margin: 10px;
+	height: 350px;
+	font-size: 13px;
+	overflow: hidden;
+	text-align: left;
+	line-height: 14px;
+	font-family: "Roboto Condensed",sans-serif;
+	color: #4E4E4E;
+}
+.Loi-Dan b{
+	color: #000;
+}
+b{
+	font-weight: bold;
+}
+i{
+	font-style: italic;
+}
+.Chuong{
+	text-align: left;
+	margin-top: 8%;
+	padding: 0px;
+	width: 100%;
+	float: left;
+	height: 830px;
+
+
+}
+.Danh-Sach{
+	text-align: left;
+	height: 40px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	position: relative;
+	border-bottom: 1px solid #CCC;
+
+}
+.Danh-Sach h2{
+	font-family: 'Roboto Condensed';
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	max-width: 30%;
+	border-bottom: 1px solid #4E4E4E;
+}
+.Danh-Sach-Chuong{
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 46%;
+	float: left;
+}
+.Chapter{
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+	list-style: none;
+	padding-left: 15px;
+	text-align: left;
+	font-family: 'Roboto Condensed',sans-serif;
+	
+}
+.Chapter li{
+	padding: 5px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Chapter li a{
+	font-size: 14px;
+	line-height: 18px;
+	display: inline;
+	margin: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.row-2{
+	width: 47%;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: right;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Chon-O{
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 4px;
+	float: center;
+	text-align: center;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+}
+.Chon-O li{
+	display: inline-block;
+	padding: 8px 12px 8px ;
+	border: 1px solid #CCC;
+	background-color: #D3D3D3;
+
+}
+.Chon-O li:hover{  
+	background-color:#B0C4DE;
+}
+.Chon-O a:hover{  
+	color: white;
+}
+.D-N{
+	margin-top: 7px;
+	color: #fff;
+	font-size: 13px;
+}
+.D-N a{
+	color: #fff;
+}
+.D-N a:hover{
+	border-bottom: 1px solid #fff;
+}
+.XepHang{
+	width: 28%;
+	margin-top: 4%;
+	float: right;
+	height: auto;
+}
+.XepHang_Top{
+	height: 30px;
+	border-bottom: 1px solid #CCC;
+	width: 80%;
+}
+.XepHang span{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 3%;
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	height: 50px;
+
+}
+.XepHang ul{
+	float: left;
+	width: 100%;
+	list-style: none;
+	text-transform: capitalize;
+	font-family: 'arial';
+}
+.XepHang li{
+	width: 140px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: -10px;
+    display: inline-block;
+
+}
+.XepHang li a{
+	color: #000;
+    text-transform: capitalize;	
+}
+.XepHang li b{
+	float: left;
+    width: 130px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.XepHang li p{
+	float: center;
+    width: 115px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: center;
+}
+.Binh-Luan{
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-top: 3%;
+	font-family: 'Roboto Condensed';
+}
+.view{
+	float: left;
+	padding: 2px;
+	font-size: 18px;
+	width: 100%;
+	margin-top: 1.5%;
+	font-weight: bold;
+}
+.Binh-LT{
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid #CCC;
+	font-family: 'Roboto Condensed';
+}
+.Binh-Luan textarea{
+	margin-top: 2%;
+	padding: 5px;
+	width: 100%;
+	height: 70px;
+}
+.End{
+	width: 100%;
+	height: 350%;
+	margin-top: 20%;
+	margin-bottom: 3%;
+	float: left;
+	border-top: 2px solid #CCC;
+}
+.loi{
+	width: 50%;
+	float: center;
+	margin-top: 3%;
+	margin-left: 25%;
+	text-transform: capitalize;
+	font-style:'utmcons';
+	font-size: 15px;
+}
+.loi strong{
+	margin-top: 3%;
+}
+.XepHang a:hover{  
+	color: #0000CD;
+}
+.Tac-gia{
+	width: 28%;
+	height: auto;
+	float: right;
+	margin-top: -40%;
+	text-transform: uppercase;
+}
+.Tac-gia span{
+	text-align: left;
+    list-style: none;
+	float: left;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #000;
+    font-family:'utmcons';
+    border-bottom: 1px solid #CCC;
+}
+.Tac-gia ul{
+	float: left;
+	width: 100%;
+	list-style: none;
+	text-transform: capitalize;
+	font-family: 'arial';
+	display: inline-block;
+}
+.Tac-gia ul li{
+	float: left;
+	width: 70%;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: -30px;
+	line-height: 30px;
+	font-size: 15px;
+	position: relative;
+	border-bottom: 1px dashed #CCC;
+	font-family: 'Roboto Condensed';
+	font-size: 18px;
+}
+.Tac-gia ul li span{
+	float: left;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #A9A9A9;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	margin-right: 10px;
+	border-radius: 50px;
+}
+.Tac-gia ul li a{
+	color: #4E4E4E;
+	max-width: 70%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: left;
+	width: 168px;
+}
+.Tac-gia a:hover{
+	color: #0000CD;
+}
+
+<--CSS Chương-1-->
+
+.Chuong-1{
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.Chuong-1 h3{
+	margin-top: -2%;
+	text-align: center;
+	float: center;
+}
+.Chuong-1 a{
+	text-align: center;
+	font-size: 16px;
+}
+.chapter-start{
+	background:url(http://static.truyenfull.vn/img/spriteimg_op.png) -200px -27px no-repeat;
+	width: 59px;
+    height: 20px;
+    border: 0;
+    margin: 10px auto;
+    display: block;
+}
+.Chapter-C1{
+	width: 50%;
+	height: 40px;
+	float: left;
+	margin-left: 29%;
+	margin-top: 0%;
+}
+
+.Chapter-C1 ul li{
+	display: inline-block;
+	width: 140px;
+	height: 40px;
+	
+}
+.Chapter-C1 ul li a{
+	font-size: 20px;
+	padding: 7px;
+	background-color:#00FF00;
+	color: #F0FFFF;
+	border-radius: 5px;
+}
+.Chapter-C1 ul li select{
+	width: 125px;
+	height: 37px;
+	padding: 7px;
+	font-size: 17px;
+	border: none;
+	background-color: #00FF00;
+	color: #F0FFFF;
+	border-radius: 5px;
+}
+.Chapter-C1 ul li select:hover{
+	background-color: #008000;
+}
+.Chapter-C1 ul li a:hover{
+	background-color: #008000;
+}
+.chapter-end{
+	background: url(http://static.truyenfull.vn/img/spriteimg_op.png) 0 -51px no-repeat;
+    width: 277px;
+    height: 35px;
+    margin-top: 7%;
+    border: none;
+}
+.chapter-c{
+	font-family: "Palatino Linotype","Arial","Times New Roman",sans-serif;
+    line-height: 180%;
+    color: #2B2B2B;
+    font-size: 22px;
+    text-align: left;
+    word-break: break-word;
+    margin-top: 8%;
+    width: 100%;
+    margin-left: 3%;
+}
+.DSMenu{
+	position: absolute;
+	opacity: 0;
+	width: 300px;
+	visibility: hidden;
+	left: -1px;
+	top: 150%;
+	border-left: 0!important;
+	z-index: -1;
+	background-color: black;
+}
+.DSMenu li{
+	float: left;
+	padding: 5px 3px!important;
+	width: 25%;
+	box-sizing:border-box;
+	border-bottom: 1px solid black;
+	display: list-item;
+}
+.DSMenu li a{
+	color: white;
+	font-size: 14px;
+	padding: 8px;
+	text-decoration: none;
+}
